@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import Nav from '../components/Nav'
-import Footer from '../components/Footer'
+import Footer from '../components/ui/footer-column'
 import { motion } from 'framer-motion'
 import { FadeInSection, FadeInText } from '../components/FadeInSection'
 import vetrivelPortrait from '../assets/vetri.webp'

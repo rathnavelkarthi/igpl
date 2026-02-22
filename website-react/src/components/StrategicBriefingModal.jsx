@@ -18,10 +18,10 @@ const CustomSelect = ({ label, options, value, onChange }) => {
             <label style={{ display: 'block', fontSize: '0.7rem', fontWeight: 800, color: 'var(--gray-500)', letterSpacing: '0.2em', marginBottom: '0.8rem', textTransform: 'uppercase' }}>{label}</label>
             <div
                 onClick={() => setIsOpen(!isOpen)}
+                className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-[0.75rem] outline-none"
                 style={{
-                    cursor: 'pointer',
                     width: '100%', background: 'rgb(15,15,15)', border: '1px solid var(--border)',
-                    padding: 'clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem)', color: 'var(--white)', borderRadius: '0.75rem',
+                    padding: 'clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem)', color: 'var(--white)',
                     fontSize: 'clamp(0.8125rem, 2vw, 0.9rem)', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                     transition: 'border-color 0.3s ease'
                 }}
@@ -49,8 +49,9 @@ const CustomSelect = ({ label, options, value, onChange }) => {
                             <div
                                 key={opt.value}
                                 onClick={() => { onChange(opt.value); setIsOpen(false); }}
+                                className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 outline-none"
                                 style={{
-                                    padding: '1rem 1.5rem', cursor: 'pointer', fontSize: '0.85rem',
+                                    padding: '1rem 1.5rem', fontSize: '0.85rem',
                                     background: value === opt.value ? 'rgba(37,99,235,0.1)' : 'transparent',
                                     color: value === opt.value ? 'var(--blue)' : 'var(--gray-300)',
                                     transition: 'all 0.2s ease'
@@ -132,7 +133,7 @@ export default function StrategicBriefingModal({ isOpen, onClose }) {
                                 <div style={{ fontSize: '0.65rem', fontWeight: 800, color: 'var(--blue)', letterSpacing: '0.4em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Project Inquiry</div>
                                 <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--white)', letterSpacing: '0.05em' }}>START A PROJECT WITH US</h2>
                             </div>
-                            <button onClick={onClose} style={{ background: 'none', border: 'none', color: 'var(--gray-600)', cursor: 'pointer', padding: '0.5rem' }}>
+                            <button onClick={onClose} className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none" style={{ background: 'none', border: 'none', color: 'var(--gray-600)', padding: '0.5rem' }}>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" /></svg>
                             </button>
                         </div>

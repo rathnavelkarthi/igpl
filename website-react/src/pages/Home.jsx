@@ -8,7 +8,7 @@ import Products from '../components/Products'
 import StrategicPositioning from '../components/StrategicPositioning'
 import StrategicLeadership from '../components/StrategicLeadership'
 import CTASection from '../components/CTASection'
-import Footer from '../components/Footer'
+import Footer from '../components/ui/footer-column'
 
 export default function Home({ onOpenModal }) {
     return (

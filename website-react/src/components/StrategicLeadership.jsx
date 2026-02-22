@@ -69,6 +69,7 @@ function LeadershipCard({ name, title, description, image, link, linkText }) {
                 </p>
                 <a
                     href={link}
+                    className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm"
                     style={{
                         color: 'var(--blue-lt)',
                         fontSize: '0.875rem',
@@ -78,7 +79,8 @@ function LeadershipCard({ name, title, description, image, link, linkText }) {
                         display: 'inline-flex',
                         alignItems: 'center',
                         gap: '0.5rem',
-                        textTransform: 'uppercase'
+                        textTransform: 'uppercase',
+                        outline: 'none'
                     }}
                 >
                     {linkText}

@@ -1,45 +1,46 @@
 import { motion } from 'framer-motion'
 import { FadeInSection, FadeInText } from './FadeInSection'
+import { Clapperboard, LineChart, Landmark, Bot, Cpu } from 'lucide-react'
 
 const products = [
     {
-        icon: '🎬', title: 'AI Video Systems',
+        icon: <Clapperboard size={36} className="text-purple-400" />, title: 'AI Video Systems',
         desc: 'Veo3 + Sora 2 production pipelines for brand campaigns at scale. We automate the entire creative lifecycle from script to high-fidelity render.',
         tag: 'Most Popular',
-        image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200',
+        image: '/images/abstract/ai_video_system_1771770172751.png',
         glow: 'rgba(168, 85, 247, 0.15)', // Purple
         isLarge: true,
         href: '/ai-video-production-systems'
     },
     {
-        icon: '📈', title: 'Performance Marketing',
+        icon: <LineChart size={36} className="text-blue-400" />, title: 'Performance Marketing',
         desc: 'Full-funnel paid media with live ROAS tracking and creative automation.',
         tag: null,
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600',
+        image: '/images/abstract/performance_marketing_1771770216698.png',
         glow: 'rgba(37, 99, 235, 0.15)', // Blue
         href: '/performance-marketing-systems'
     },
     {
-        icon: '🗳️', title: 'Political Intelligence',
+        icon: <Landmark size={36} className="text-indigo-400" />, title: 'Political Intelligence',
         desc: 'Booth-level analytics, voter CRM, and constituency intelligence systems.',
         tag: 'Enterprise',
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600',
+        image: '/images/abstract/political_intelligence_1771770240152.png',
         glow: 'rgba(79, 70, 229, 0.15)', // Indigo
         href: '/political-intelligence-platform'
     },
     {
-        icon: '🤖', title: 'WhatsApp AI Automation',
+        icon: <Bot size={36} className="text-blue-400" />, title: 'WhatsApp AI Automation',
         desc: 'End-to-end WhatsApp business automation with memory and context.',
         tag: null,
-        image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=600',
+        image: '/images/abstract/whatsapp_automation_1771770271282.png',
         glow: 'rgba(59, 130, 246, 0.1)',
         href: '/whatsapp-ai-automation'
     },
     {
-        icon: '⚙️', title: 'AI SaaS Development',
+        icon: <Cpu size={36} className="text-sky-400" />, title: 'AI SaaS Development',
         desc: 'From schema design to Cloud Run deployment — complete product engineering.',
         tag: null,
-        image: 'https://images.unsplash.com/photo-1576091160550-217359f42f8c?auto=format&fit=crop&q=80&w=600',
+        image: '/images/abstract/ai_saas_dev_1771770315929.png',
         glow: 'rgba(14, 165, 233, 0.1)',
         href: '/ai-saas-development'
     },
@@ -72,18 +73,18 @@ export default function Products() {
                             className={p.isLarge ? 'bento-span-2' : ''}
                             style={{ display: 'flex' }}
                         >
-                            <a href={p.href} style={{ display: 'flex', width: '100%', textDecoration: 'none' }}>
+                            <a href={p.href} className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-[var(--radius-card)]" style={{ display: 'flex', width: '100%', textDecoration: 'none', outline: 'none' }}>
                                 <motion.div
-                                    whileHover={{
-                                        y: -12,
-                                        borderColor: 'var(--blue)',
-                                        background: 'rgba(37,99,235,0.02)'
+                                    initial="rest"
+                                    whileHover="hover"
+                                    animate="rest"
+                                    variants={{
+                                        rest: { y: 0, borderColor: 'var(--border)', background: 'var(--card)' },
+                                        hover: { y: -12, borderColor: 'var(--blue)', background: 'rgba(37,99,235,0.02)' }
                                     }}
                                     transition={{ type: 'spring', stiffness: 200, damping: 25 }}
                                     style={{
                                         padding: 'clamp(2rem, 5vw, 4rem)',
-                                        background: 'var(--card)',
-                                        border: '1px solid var(--border)',
                                         borderRadius: 'var(--radius-card)',
                                         position: 'relative',
                                         overflow: 'hidden',
@@ -91,25 +92,40 @@ export default function Products() {
                                         display: 'flex', flexDirection: 'column',
                                         justifyContent: 'space-between',
                                         backdropFilter: 'blur(40px) saturate(180%) contrast(110%)',
-                                        transition: 'all 0.6s var(--vanguard-ease)'
+                                        border: '1px solid',
+                                        transition: 'box-shadow 0.6s var(--vanguard-ease)'
                                     }}
                                 >
-                                    {/* Glow Header */}
-                                    <div style={{
-                                        position: 'absolute', top: 0, left: 0, right: 0, height: '200px',
-                                        background: `radial-gradient(circle at 50% 0%, ${p.glow}, transparent 70%)`,
-                                        opacity: 0.4, pointerEvents: 'none'
-                                    }} />
+                                    {/* Animated Glow Header */}
+                                    <motion.div
+                                        variants={{
+                                            rest: { opacity: 0.2, scale: 1 },
+                                            hover: { opacity: 0.6, scale: 1.2 }
+                                        }}
+                                        transition={{ duration: 0.8, ease: "easeOut" }}
+                                        style={{
+                                            position: 'absolute', top: 0, left: 0, right: 0, height: '250px',
+                                            background: `radial-gradient(ellipse at 50% 0%, ${p.glow}, transparent 70%)`,
+                                            pointerEvents: 'none',
+                                            transformOrigin: 'top center'
+                                        }}
+                                    />
 
-                                    {/* Card background image overlay */}
-                                    <div style={{
-                                        position: 'absolute', inset: 0,
-                                        backgroundImage: `url(${p.image})`,
-                                        backgroundSize: 'cover',
-                                        backgroundPosition: 'center',
-                                        opacity: 0.02,
-                                        pointerEvents: 'none',
-                                    }} />
+                                    {/* Animated Image Overlay */}
+                                    <motion.div
+                                        variants={{
+                                            rest: { opacity: 0.02, scale: 1 },
+                                            hover: { opacity: 0.08, scale: 1.05 }
+                                        }}
+                                        transition={{ duration: 1.2, ease: "easeOut" }}
+                                        style={{
+                                            position: 'absolute', inset: 0,
+                                            backgroundImage: `url(${p.image})`,
+                                            backgroundSize: 'cover',
+                                            backgroundPosition: 'center',
+                                            pointerEvents: 'none',
+                                        }}
+                                    />
 
                                     <div>
                                         {p.tag && (

@@ -14,35 +14,35 @@ const categories = [
                 objective: 'Hyper-local customer acquisition for premium salon brand',
                 results: '4.2× ROAS · 12K views in 72 hours',
                 tools: ['Veo3', 'ElevenLabs', 'Sora 2'],
-                image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/ai_video_system_1771770172751.png',
             },
             {
                 title: 'Lifeskool India Psychometric Film',
                 objective: 'Drive B2B leads from educational institutions',
                 results: '38 qualified leads · ₹12 CPL',
                 tools: ['Veo3', 'Gemini', 'ElevenLabs'],
-                image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/vid_psycho.png',
             },
             {
                 title: 'Trust Gold Tamil TV Style Ad',
                 objective: 'Cultural relevance + brand trust for jewellery brand',
                 results: '500K impressions · 8.7% CTR',
                 tools: ['Sora 2', 'ElevenLabs'],
-                image: 'https://images.unsplash.com/photo-1610337673044-720471f83677?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/vid_gold.png',
             },
             {
                 title: 'BeautyGenie Luxury Perfume Film',
                 objective: 'Aspirational brand storytelling for D2C launch',
                 results: '22K views · 3.1× ROAS',
                 tools: ['Veo3', 'Sora 2'],
-                image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/vid_perfume.png',
             },
             {
                 title: 'Health Insurance Awareness Series',
                 objective: '6-part educational video series for policy conversions',
                 results: '18K policy inquiries generated',
                 tools: ['Veo3', 'ElevenLabs', 'Gemini'],
-                image: 'https://images.unsplash.com/photo-1576091160550-217359f42f8c?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/vid_health.png',
             },
         ],
     },
@@ -55,28 +55,28 @@ const categories = [
                 objective: 'Full-funnel lead gen for pilot training programme',
                 results: '₹18 CPL · 420 applications/month',
                 tools: ['Meta Ads', 'Google Ads', 'n8n'],
-                image: 'https://images.unsplash.com/photo-1559135197-8a45ea74d367?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/perf_aviation.png',
             },
             {
                 title: 'PetGlow Qatar Sales Funnel',
                 objective: 'E-commerce conversion optimisation + retargeting',
                 results: '5.4× ROAS · 310% revenue growth',
                 tools: ['Meta Ads', 'Klaviyo', 'WhatsApp API'],
-                image: 'https://images.unsplash.com/photo-1548191265-cc70d3d45ba1?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/perf_ecommerce.png',
             },
             {
                 title: 'Local Political Campaign Growth',
                 objective: 'Constituency-level digital reach and voter engagement',
                 results: '9.2M impressions · 78% awareness lift',
                 tools: ['Election OS', 'Meta Ads', 'WhatsApp'],
-                image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/political_intelligence_1771770240152.png',
             },
             {
                 title: 'BeautyGenie Conversion Optimisation',
                 objective: 'Landing page & ad creative A/B testing at scale',
                 results: '2.8× conversion rate improvement',
                 tools: ['Meta Ads', 'AI Creative', 'Hotjar'],
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/performance_marketing_1771770216698.png',
             },
         ],
     },
@@ -85,32 +85,32 @@ const categories = [
         label: 'SaaS & AI Products',
         projects: [
             {
-                title: '🧠 Imagepix.pro',
+                title: 'Imagepix.pro SaaS Platform',
                 objective: '45+ AI tools platform with credits system and creator tiers',
                 results: 'Multi-tier SaaS · Credits economy · Creator marketplace',
                 tools: ['React', 'Supabase', 'Gemini API', 'Stripe'],
-                image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/ai_saas_dev_1771770315929.png',
             },
             {
-                title: '🗳️ Election Intelligence OS',
+                title: 'Election Intelligence OS',
                 objective: '33 DB tables · 97 RLS policies · AI voter analytics · Political CRM',
                 results: 'Real-time analytics · Booth-level intelligence · Candidate briefings',
                 tools: ['Next.js', 'Supabase', 'Vertex AI', 'n8n'],
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/political_intelligence_1771770240152.png',
             },
             {
-                title: '🤖 WhatsApp AI Personal Assistant',
+                title: 'WhatsApp AI Personal Assistant',
                 objective: 'Evolution API + Supabase memory + n8n automation + Google ecosystem',
                 results: 'End-to-end personal AI on WhatsApp',
                 tools: ['Evolution API', 'Supabase', 'n8n', 'Gemini'],
-                image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/whatsapp_automation_1771770271282.png',
             },
             {
-                title: '🏥 Doctor App',
+                title: 'Healthcare Doctor SaaS',
                 objective: 'Next.js 14 + Prisma + Cloud Run / GKE + AI Summary feature',
                 results: 'Production-grade healthcare SaaS',
                 tools: ['Next.js 14', 'Prisma', 'GKE', 'Vertex AI'],
-                image: 'https://images.unsplash.com/photo-1576091160550-217359f42f8c?auto=format&fit=crop&q=80&w=800',
+                image: '/images/abstract/the_firm_1771770372896.png',
             },
         ],
     },
@@ -231,9 +231,12 @@ export default function WorkGrid() {
                 {/* Tabs — Vanguard Style */}
                 <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '6rem', flexWrap: 'wrap' }}>
                     {categories.map(cat => (
-                        <button
+                        <motion.button
                             key={cat.id}
                             onClick={() => setActive(cat.id)}
+                            className="relative overflow-hidden cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 outline-none"
+                            whileHover={{ scale: 1.02 }}
+                            whileTap={{ scale: 0.98 }}
                             style={{
                                 padding: '1rem 2.25rem',
                                 borderRadius: '9999px',
@@ -242,14 +245,58 @@ export default function WorkGrid() {
                                 letterSpacing: '0.3em',
                                 border: '1px solid',
                                 borderColor: active === cat.id ? 'var(--blue)' : 'var(--border)',
-                                background: active === cat.id ? 'rgba(37,99,235,0.05)' : 'transparent',
                                 color: active === cat.id ? 'var(--white)' : 'var(--gray-500)',
-                                cursor: 'pointer',
+                                background: 'transparent',
                                 transition: 'all 0.6s var(--vanguard-ease)',
                             }}
                         >
-                            {cat.label}
-                        </button>
+                            {/* Animated Background active state */}
+                            <AnimatePresence>
+                                {active === cat.id && (
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        exit={{ opacity: 0, scale: 0.8 }}
+                                        transition={{ duration: 0.5, ease: "easeOut" }}
+                                        style={{
+                                            position: 'absolute', inset: 0,
+                                            background: 'linear-gradient(120deg, rgba(37,99,235,0.05) 0%, rgba(37,99,235,0.15) 100%)',
+                                            zIndex: -1
+                                        }}
+                                    >
+                                        <motion.div
+                                            animate={{
+                                                opacity: [0.5, 0.8, 0.5],
+                                                scale: [1, 1.05, 1]
+                                            }}
+                                            transition={{
+                                                duration: 4,
+                                                repeat: Infinity,
+                                                ease: "easeInOut"
+                                            }}
+                                            style={{
+                                                position: 'absolute', inset: 0,
+                                                background: 'radial-gradient(circle at 50% 50%, rgba(37,99,235,0.2), transparent 70%)',
+                                            }}
+                                        />
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
+
+                            {/* Base hover background for non-active */}
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                whileHover={{ opacity: active === cat.id ? 0 : 1 }}
+                                transition={{ duration: 0.3 }}
+                                style={{
+                                    position: 'absolute', inset: 0,
+                                    background: 'rgba(255,255,255,0.03)',
+                                    zIndex: -2
+                                }}
+                            />
+
+                            <span style={{ position: 'relative', zIndex: 1 }}>{cat.label}</span>
+                        </motion.button>
                     ))}
                 </div>
 

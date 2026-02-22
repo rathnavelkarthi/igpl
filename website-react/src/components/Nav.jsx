@@ -50,7 +50,7 @@ export default function Nav({ onOpenModal }) {
             >
                 <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     {/* Logo */}
-                    <a href="/" style={{ fontFamily: 'var(--font-head)', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.04em' }}>
+                    <a href="/" className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none" style={{ fontFamily: 'var(--font-head)', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.04em' }}>
                         <span style={{ color: '#fff' }}>monkeymind</span>
                         <span style={{ color: 'var(--blue)' }}>media</span>
                     </a>
@@ -59,10 +59,12 @@ export default function Nav({ onOpenModal }) {
                     <ul style={{ display: 'flex', gap: '3rem', alignItems: 'center' }} className="hidden-mobile">
                         {links.map(l => (
                             <li key={l.label}>
-                                <a href={l.href} style={{
-                                    fontSize: '0.9rem', fontWeight: 500, color: 'var(--gray-400)',
-                                    letterSpacing: '0.04em', transition: 'color 0.4s var(--luxury-ease)',
-                                }}
+                                <a href={l.href}
+                                    className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none"
+                                    style={{
+                                        fontSize: '0.9rem', fontWeight: 500, color: 'var(--gray-400)',
+                                        letterSpacing: '0.04em', transition: 'color 0.4s var(--luxury-ease)',
+                                    }}
                                     onMouseEnter={e => e.target.style.color = '#fff'}
                                     onMouseLeave={e => e.target.style.color = 'var(--gray-400)'}
                                 >
@@ -97,8 +99,8 @@ export default function Nav({ onOpenModal }) {
                     {/* Burger */}
                     <button
                         onClick={() => setMenuOpen(o => !o)}
-                        className="show-mobile"
-                        style={{ display: 'none', flexDirection: 'column', gap: '5px', padding: '4px' }}
+                        className="show-mobile cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none"
+                        style={{ display: 'none', flexDirection: 'column', gap: '5px', padding: '4px', background: 'transparent', border: 'none' }}
                         aria-label="Toggle menu"
                     >
                         {[0, 1, 2].map(i => (

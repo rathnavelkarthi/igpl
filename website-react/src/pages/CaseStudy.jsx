@@ -1,7 +1,8 @@
 import Nav from '../components/Nav'
-import Footer from '../components/Footer'
+import Footer from '../components/ui/footer-column'
 import { motion } from 'framer-motion'
 import { FadeInSection, FadeInText } from '../components/FadeInSection'
+import ScrollSystemDemo from '../components/ScrollSystemDemo'
 
 const smooth = { duration: 0.9, ease: [0.22, 1, 0.36, 1] }
 
@@ -157,6 +158,9 @@ export default function CaseStudy() {
                     </FadeInSection>
                 </div>
             </section>
+
+            {/* The new AI-Generated Full-Screen Slider */}
+            <ScrollSystemDemo />
 
             <Footer />
         </>

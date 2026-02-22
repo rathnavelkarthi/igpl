@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Nav from '../../components/Nav'
-import Footer from '../../components/Footer'
+import Footer from '../../components/ui/footer-column'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FadeInSection, FadeInText } from '../../components/FadeInSection'
 
