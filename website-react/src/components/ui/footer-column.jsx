@@ -1,8 +1,8 @@
 import {
-    Dribbble,
     Facebook,
     Github,
     Instagram,
+    Linkedin,
     Mail,
     MapPin,
     Phone,
@@ -50,7 +50,7 @@ const socialLinks = [
     { icon: Instagram, label: 'Instagram', href: data.instaLink },
     { icon: Twitter, label: 'Twitter', href: data.twitterLink },
     { icon: Github, label: 'GitHub', href: data.githubLink },
-    { icon: Dribbble, label: 'Dribbble', href: data.dribbbleLink },
+    { icon: Linkedin, label: 'LinkedIn', href: data.dribbbleLink },
 ];
 
 const aboutLinks = [
@@ -85,9 +85,9 @@ export default function Footer4Col() {
             <div className="container mx-auto max-w-7xl px-8 sm:px-12 lg:px-20 z-50">
                 <div className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-16">
                     <div className="lg:col-span-4">
-                        <div className="flex justify-center sm:justify-start items-center" style={{ color: 'var(--blue)' }}>
-                            <span className="text-2xl lg:text-4xl font-bold tracking-widest uppercase whitespace-nowrap" style={{ fontFamily: 'var(--font-head)' }}>
-                                {data.company.name}
+                        <div className="flex justify-center sm:justify-start items-center">
+                            <span className="text-2xl lg:text-3xl font-bold tracking-tight uppercase whitespace-nowrap" style={{ fontFamily: 'var(--font-head)', letterSpacing: '-0.04em' }}>
+                                <span style={{ color: '#fff' }}>international</span><span style={{ color: 'var(--blue)' }}>garudas</span>
                             </span>
                         </div>
 
