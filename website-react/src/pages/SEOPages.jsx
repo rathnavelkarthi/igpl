@@ -37,7 +37,7 @@ export const AIVideoProduction = () => (
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "AI Video Production",
-            "provider": { "@type": "Organization", "name": "Monkey Mind Media" },
+            "provider": { "@type": "Organization", "name": "International Garudas" },
             "description": "High-fidelity AI video production using Veo3 and Sora 2 for enterprise brand campaigns."
         }}
     />
@@ -80,7 +80,7 @@ export const PoliticalIntelligence = () => (
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Political Intelligence Platform",
-            "provider": { "@type": "Organization", "name": "Monkey Mind Media" },
+            "provider": { "@type": "Organization", "name": "International Garudas" },
             "description": "Advanced political campaign technology and voter analytics platforms."
         }}
     />
@@ -118,7 +118,7 @@ export const WhatsAppAutomation = () => (
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "WhatsApp AI Automation",
-            "provider": { "@type": "Organization", "name": "Monkey Mind Media" },
+            "provider": { "@type": "Organization", "name": "International Garudas" },
             "description": "Enterprise WhatsApp automation systems using Evolution API and AI logic."
         }}
     />
@@ -156,7 +156,7 @@ export const AISaaSDeployment = () => (
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "AI SaaS Development",
-            "provider": { "@type": "Organization", "name": "Monkey Mind Media" },
+            "provider": { "@type": "Organization", "name": "International Garudas" },
             "description": "Full-stack AI SaaS development and product engineering services."
         }}
     />
@@ -194,7 +194,7 @@ export const PerformanceMarketing = () => (
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Performance Marketing Systems",
-            "provider": { "@type": "Organization", "name": "Monkey Mind Media" },
+            "provider": { "@type": "Organization", "name": "International Garudas" },
             "description": "AI-powered performance marketing and creative automation infrastructure."
         }}
     />

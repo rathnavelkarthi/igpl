@@ -9,7 +9,7 @@ export default function LocalSEO({ onOpenModal }) {
             seoKeywords="local seo chennai, local seo services chennai, google maps seo chennai, google business profile chennai, local search optimization chennai"
             h1="Local SEO Services in Chennai"
             heroLabel="DOMINATE LOCAL SEARCH"
-            heroSubtext="Monkey Mind Media helps Chennai businesses rank in Google Maps, the local 3-pack, and neighborhood-specific searches — turning local visibility into foot traffic and phone calls."
+            heroSubtext="International Garudas helps Chennai businesses rank in Google Maps, the local 3-pack, and neighborhood-specific searches — turning local visibility into foot traffic and phone calls."
             sections={[
                 {
                     heading: 'Why Local SEO is Critical for Chennai Businesses',

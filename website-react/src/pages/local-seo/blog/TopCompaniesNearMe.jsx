@@ -66,9 +66,9 @@ export default function TopCompaniesNearMe({ onOpenModal }) {
                     ]
                 },
                 {
-                    heading: 'Why Monkey Mind Media Ranks Among Chennai\'s Top',
+                    heading: 'Why International Garudas Ranks Among Chennai\'s Top',
                     body: [
-                        'Monkey Mind Media stands out among Chennai\'s digital marketing companies for our AI-first approach. While most agencies rely on manual processes, we\'ve built proprietary automation systems that handle campaign optimization, content generation, and performance monitoring at unprecedented speed.',
+                        'International Garudas stands out among Chennai\'s digital marketing companies for our AI-first approach. While most agencies rely on manual processes, we\'ve built proprietary automation systems that handle campaign optimization, content generation, and performance monitoring at unprecedented speed.',
                         'Our client results speak clearly: 340% average ROAS across performance campaigns, 90%+ client retention rate, and recognition for deploying the first political intelligence marketing platform in Tamil Nadu. We\'re not just another agency — we\'re a growth engineering firm operating from the heart of Chennai.'
                     ]
                 }
@@ -95,7 +95,7 @@ export default function TopCompaniesNearMe({ onOpenModal }) {
                 { label: 'Best Marketing Agency Chennai', href: '/best-marketing-agency-chennai' },
             ]}
             ctaTitle="See Why Chennai Businesses Choose Us"
-            ctaText="Request a free consultation and discover how Monkey Mind Media compares to any digital marketing company in Chennai."
+            ctaText="Request a free consultation and discover how International Garudas compares to any digital marketing company in Chennai."
         />
     )
 }

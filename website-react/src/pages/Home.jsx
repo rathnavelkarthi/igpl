@@ -19,8 +19,8 @@ export default function Home({ onOpenModal }) {
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Organization",
-                    "name": "Monkey Mind Media",
-                    "url": "https://monkeymindmedia.com",
+                    "name": "International Garudas",
+                    "url": "https://internationalgarudas.com",
                     "employee": [
                         {
                             "@type": "Person",

@@ -4,18 +4,18 @@ export default function SEOCompany({ onOpenModal }) {
     return (
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
-            seoTitle="SEO Company in Chennai | Monkey Mind Media"
-            seoDescription="Looking for a reliable SEO company in Chennai? Monkey Mind Media delivers white-hat SEO strategies with proven rankings for businesses across Tamil Nadu."
+            seoTitle="SEO Company in Chennai | International Garudas"
+            seoDescription="Looking for a reliable SEO company in Chennai? International Garudas delivers white-hat SEO strategies with proven rankings for businesses across Tamil Nadu."
             seoKeywords="seo company in chennai, seo company chennai, best seo company chennai, top seo firm chennai, search engine optimization company chennai"
             h1="SEO Company in Chennai"
             heroLabel="ORGANIC GROWTH ARCHITECTS"
-            heroSubtext="Monkey Mind Media is a results-oriented SEO company in Chennai. We build search visibility systems that deliver qualified traffic and measurable business growth."
+            heroSubtext="International Garudas is a results-oriented SEO company in Chennai. We build search visibility systems that deliver qualified traffic and measurable business growth."
             sections={[
                 {
                     heading: 'What Sets Our SEO Company Apart in Chennai',
                     body: [
                         'Chennai has no shortage of SEO companies. A quick search reveals dozens of options, each promising page-one rankings and traffic explosions. The challenge for business owners is separating genuine expertise from empty promises.',
-                        'What differentiates Monkey Mind Media as an SEO company in Chennai is our commitment to transparency and measurable outcomes. We don\'t sell mystery — we show you exactly what we\'re doing, why we\'re doing it, and how it connects to your business revenue.',
+                        'What differentiates International Garudas as an SEO company in Chennai is our commitment to transparency and measurable outcomes. We don\'t sell mystery — we show you exactly what we\'re doing, why we\'re doing it, and how it connects to your business revenue.',
                         'Our team combines technical SEO engineers, content strategists, and data analysts who work together as a single unit. This integrated approach means every optimization we make considers the full picture — user experience, conversion potential, and search algorithm requirements simultaneously.'
                     ]
                 },
@@ -85,7 +85,7 @@ export default function SEOCompany({ onOpenModal }) {
                 { label: 'Top Digital Marketing Companies Chennai', href: '/top-digital-marketing-companies-near-me-chennai' },
             ]}
             ctaTitle="Get an SEO Partner That Delivers"
-            ctaText="Request your free technical SEO audit today and discover why leading Chennai businesses trust Monkey Mind Media for organic growth."
+            ctaText="Request your free technical SEO audit today and discover why leading Chennai businesses trust International Garudas for organic growth."
         />
     )
 }

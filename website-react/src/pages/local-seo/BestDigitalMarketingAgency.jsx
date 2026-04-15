@@ -5,18 +5,18 @@ export default function BestDigitalMarketingAgency({ onOpenModal }) {
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
             seoTitle="Best Digital Marketing Agency in Chennai | MMM"
-            seoDescription="Looking for the best digital marketing agency in Chennai? Monkey Mind Media combines AI automation, performance analytics, and local expertise for measurable business growth."
+            seoDescription="Looking for the best digital marketing agency in Chennai? International Garudas combines AI automation, performance analytics, and local expertise for measurable business growth."
             seoKeywords="best digital marketing agency in chennai, top digital marketing agency chennai, best online marketing company chennai, leading digital agency chennai"
             h1="Best Digital Marketing Agency in Chennai"
             heroLabel="CHENNAI'S TOP-RANKED PARTNER"
-            heroSubtext="Monkey Mind Media is rated among the best digital marketing agencies in Chennai for our data-first approach, AI-powered automation, and proven track record across Tamil Nadu businesses."
+            heroSubtext="International Garudas is rated among the best digital marketing agencies in Chennai for our data-first approach, AI-powered automation, and proven track record across Tamil Nadu businesses."
             sections={[
                 {
                     heading: 'What Makes Us the Best Digital Marketing Agency in Chennai?',
                     body: [
-                        'The best digital marketing agency in Chennai isn\'t the one with the flashiest office or the biggest team. It\'s the one that delivers measurable, repeatable results. At Monkey Mind Media, we\'ve built our reputation on a simple principle: if it can\'t be measured, it can\'t be managed.',
+                        'The best digital marketing agency in Chennai isn\'t the one with the flashiest office or the biggest team. It\'s the one that delivers measurable, repeatable results. At International Garudas, we\'ve built our reputation on a simple principle: if it can\'t be measured, it can\'t be managed.',
                         'We combine three capabilities that most Chennai agencies lack: enterprise-grade AI automation technology, deep local market knowledge spanning neighborhoods from Adyar to Ambattur, and a rigorous performance measurement framework that ties every campaign to revenue impact — not vanity metrics.',
-                        'Our client retention rate exceeds 90% because we treat ourselves as a growth partner, not a vendor. When businesses in Chennai need a marketing agency that genuinely moves the revenue needle, they choose Monkey Mind Media.'
+                        'Our client retention rate exceeds 90% because we treat ourselves as a growth partner, not a vendor. When businesses in Chennai need a marketing agency that genuinely moves the revenue needle, they choose International Garudas.'
                     ]
                 },
                 {
@@ -62,7 +62,7 @@ export default function BestDigitalMarketingAgency({ onOpenModal }) {
             ]}
             faqs={[
                 {
-                    q: 'How do I know if Monkey Mind Media is the right fit for my business?',
+                    q: 'How do I know if International Garudas is the right fit for my business?',
                     a: 'We offer a free 30-minute strategy consultation where we assess your current digital presence and identify growth opportunities. If we believe we can deliver measurable results for your business, we\'ll present a clear roadmap with projected outcomes. We only take on clients where we\'re confident we can deliver.'
                 },
                 {
@@ -82,7 +82,7 @@ export default function BestDigitalMarketingAgency({ onOpenModal }) {
                 { label: 'How to Choose a Digital Marketing Agency', href: '/how-to-choose-digital-marketing-agency-chennai' },
             ]}
             ctaTitle="Experience Chennai's Best Marketing Partner"
-            ctaText="Book a free strategy session and see why leading Chennai brands trust Monkey Mind Media with their growth."
+            ctaText="Book a free strategy session and see why leading Chennai brands trust International Garudas with their growth."
         />
     )
 }

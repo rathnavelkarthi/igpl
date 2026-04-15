@@ -35,7 +35,7 @@ export default function ScrollSystemDemo() {
                         <div style={{ color: 'var(--blue)', fontFamily: 'var(--font-head)' }}>Process</div>
                     </>
                 }
-                footer={<div style={{ color: 'var(--gray-500)', fontSize: '1rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>Monkey Mind Media</div>}
+                footer={<div style={{ color: 'var(--gray-500)', fontSize: '1rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>International Garudas</div>}
                 showProgress
                 durations={{ change: 0.7, snap: 800 }}
                 colors={{

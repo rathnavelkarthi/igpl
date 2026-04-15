@@ -50,14 +50,14 @@ function SpecializationGrid({ items }) {
 
 export default function Founder({ onOpenModal }) {
     useEffect(() => {
-        document.title = "Rathnavel | Founder of Monkey Mind Media | AI Systems Architect"
+        document.title = "Rathnavel | Founder of International Garudas | AI Systems Architect"
         const metaDesc = document.querySelector('meta[name="description"]')
-        if (metaDesc) metaDesc.setAttribute("content", "Rathnavel is the founder of Monkey Mind Media, a strategic AI systems company engineering political intelligence platforms, AI automation infrastructure, and enterprise performance systems.")
+        if (metaDesc) metaDesc.setAttribute("content", "Rathnavel is the founder of International Garudas, a strategic AI systems company engineering political intelligence platforms, AI automation infrastructure, and enterprise performance systems.")
 
         return () => {
             // Restore default meta on unmount
-            document.title = "Monkey Mind Media | Strategic AI Systems & Intelligence Infrastructure"
-            if (metaDesc) metaDesc.setAttribute("content", "Monkey Mind Media is an AI systems company engineering strategic intelligence infrastructure, AI automation platforms, political technology systems, and performance marketing engines for global dominance.")
+            document.title = "International Garudas | Strategic AI Systems & Intelligence Infrastructure"
+            if (metaDesc) metaDesc.setAttribute("content", "International Garudas is an AI systems company engineering strategic intelligence infrastructure, AI automation platforms, political technology systems, and performance marketing engines for global dominance.")
         }
     }, [])
 
@@ -74,13 +74,13 @@ export default function Founder({ onOpenModal }) {
                     "jobTitle": "Founder & Systems Architect",
                     "worksFor": {
                         "@type": "Organization",
-                        "name": "Monkey Mind Media"
+                        "name": "International Garudas"
                     },
-                    "url": "https://monkeymindmedia.com/founder",
+                    "url": "https://internationalgarudas.com/founder",
                     "sameAs": [
                         "https://www.linkedin.com/in/rathnavel"
                     ],
-                    "description": "Founder of Monkey Mind Media, specializing in AI automation systems, political intelligence platforms, and enterprise performance infrastructure."
+                    "description": "Founder of International Garudas, specializing in AI automation systems, political intelligence platforms, and enterprise performance infrastructure."
                 })}
             </script>
 
@@ -97,7 +97,7 @@ export default function Founder({ onOpenModal }) {
                             RATHNAVEL<span style={{ color: 'var(--blue)' }}>.</span>
                         </h1>
                         <p style={{ fontSize: 'clamp(1.125rem, 3vw, 1.5rem)', color: 'var(--gray-400)', maxWidth: '600px', lineHeight: 1.6, marginBottom: '2rem' }}>
-                            Rathnavel is the founder of Monkey Mind Media, a strategic AI systems firm specializing in
+                            Rathnavel is the founder of International Garudas, a strategic AI systems firm specializing in
                             automation infrastructure, political intelligence platforms, and enterprise
                             performance marketing architecture.
                         </p>
@@ -153,7 +153,7 @@ export default function Founder({ onOpenModal }) {
                                 "Where most firms optimize ads, he engineers automation pipelines.",
                                 "Where most agencies produce content, he builds AI production systems.",
                                 "Where most consultants advise, he deploys intelligence architecture.",
-                                "This systems-first philosophy defines Monkey Mind Media’s core methodology."
+                                "This systems-first philosophy defines International Garudas’s core methodology."
                             ].map((text, i) => (
                                 <p key={i} style={{
                                     fontSize: 'clamp(1.125rem, 3vw, 1.5rem)',
@@ -288,7 +288,7 @@ export default function Founder({ onOpenModal }) {
                         <SectionLabel>GLOBAL OPERATIONS</SectionLabel>
                         <h2 className="text-h2" style={{ marginBottom: '2rem' }}>Chennai HQ. Global Systems.</h2>
                         <p style={{ fontSize: 'clamp(1.125rem, 3vw, 1.5rem)', color: 'var(--gray-400)', maxWidth: '800px', marginInline: 'auto', lineHeight: 1.6, marginBottom: '4rem' }}>
-                            Based in Chennai, Rathnavel operates Monkey Mind Media as a global AI systems firm.
+                            Based in Chennai, Rathnavel operates International Garudas as a global AI systems firm.
                             The focus is not geography. The focus is architecture.
                         </p>
                         <div style={{ height: '1px', width: '100px', background: 'var(--blue)', marginInline: 'auto', marginBottom: '4rem' }} />

@@ -46,16 +46,16 @@ const caseStudies = [
 
 export default function ChennaiMarketing({ onOpenModal }) {
     useEffect(() => {
-        document.title = "Best Marketing Agency in Chennai | Monkey Mind Media"
+        document.title = "Best Marketing Agency in Chennai | International Garudas"
         const metaDesc = document.querySelector('meta[name="description"]')
-        if (metaDesc) metaDesc.setAttribute("content", "Looking for the best marketing agency in Chennai? Monkey Mind Media delivers performance marketing, AI-powered campaigns, and strategic digital growth for brands across Tamil Nadu.")
+        if (metaDesc) metaDesc.setAttribute("content", "Looking for the best marketing agency in Chennai? International Garudas delivers performance marketing, AI-powered campaigns, and strategic digital growth for brands across Tamil Nadu.")
 
         const metaKeywords = document.querySelector('meta[name="keywords"]')
         if (metaKeywords) metaKeywords.setAttribute("content", "best marketing agency chennai, top digital marketing company chennai, marketing agency in chennai, digital marketing chennai, performance marketing chennai, social media marketing chennai, google ads agency chennai, whatsapp automation chennai, political campaign marketing tamil nadu")
 
         return () => {
-            document.title = "Monkey Mind Media | AI Systems & Strategic Intelligence Infrastructure"
-            if (metaDesc) metaDesc.setAttribute("content", "Monkey Mind Media engineers AI automation systems, political intelligence platforms, and enterprise performance marketing technology for scalable impact.")
+            document.title = "International Garudas | AI Systems & Strategic Intelligence Infrastructure"
+            if (metaDesc) metaDesc.setAttribute("content", "International Garudas engineers AI automation systems, political intelligence platforms, and enterprise performance marketing technology for scalable impact.")
         }
     }, [])
 
@@ -68,10 +68,10 @@ export default function ChennaiMarketing({ onOpenModal }) {
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "MarketingAgency",
-                    "name": "Monkey Mind Media",
-                    "image": "https://monkeymindmedia.com/logo.png",
-                    "@id": "https://monkeymindmedia.com/",
-                    "url": "https://monkeymindmedia.com/",
+                    "name": "International Garudas",
+                    "image": "https://internationalgarudas.com/logo.png",
+                    "@id": "https://internationalgarudas.com/",
+                    "url": "https://internationalgarudas.com/",
                     "description": "Best marketing agency in Chennai offering performance marketing, AI-powered campaigns, and strategic digital growth.",
                     "address": {
                         "@type": "PostalAddress",
@@ -88,8 +88,8 @@ export default function ChennaiMarketing({ onOpenModal }) {
                         "name": "Rathnavel"
                     },
                     "sameAs": [
-                        "https://www.linkedin.com/company/monkeymindmedia",
-                        "https://instagram.com/monkeymindmedia"
+                        "https://www.linkedin.com/company/internationalgarudas",
+                        "https://instagram.com/internationalgarudas"
                     ]
                 })}
             </script>
@@ -127,7 +127,7 @@ export default function ChennaiMarketing({ onOpenModal }) {
                             lineHeight: 1.6,
                             marginBottom: '2rem'
                         }}>
-                            Monkey Mind Media delivers AI-powered performance marketing, strategic digital campaigns,
+                            International Garudas delivers AI-powered performance marketing, strategic digital campaigns,
                             and enterprise growth systems for brands across Chennai and Tamil Nadu.
                         </p>
                         <p style={{
@@ -149,12 +149,12 @@ export default function ChennaiMarketing({ onOpenModal }) {
 
             <main className="container" style={{ paddingBottom: 'var(--section-pad)' }}>
 
-                {/* ═══════════ WHY MONKEY MIND MEDIA ═══════════ */}
+                {/* ═══════════ WHY International Garudas ═══════════ */}
                 <FadeInSection>
                     <div style={{ padding: 'var(--section-pad) 0', maxWidth: '900px' }}>
                         <SectionLabel>WHY US</SectionLabel>
                         <h2 className="text-h2" style={{ marginBottom: 'clamp(2rem, 5vw, 3rem)' }}>
-                            Why Monkey Mind Media is Among the Top Marketing Agencies in Chennai
+                            Why International Garudas is Among the Top Marketing Agencies in Chennai
                         </h2>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                             <p style={{
@@ -320,7 +320,7 @@ export default function ChennaiMarketing({ onOpenModal }) {
                         </h2>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                             <p style={{ fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', color: 'var(--gray-400)', lineHeight: 1.8 }}>
-                                Monkey Mind Media is headquartered in Chennai. We don't operate remotely for the sake of it —
+                                International Garudas is headquartered in Chennai. We don't operate remotely for the sake of it —
                                 we understand the local business ecosystem, consumer behavior, and competitive landscape
                                 of Tamil Nadu's capital city because we live it every day.
                             </p>

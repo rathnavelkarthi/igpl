@@ -9,14 +9,14 @@ export default function PPCManagement({ onOpenModal }) {
             seoKeywords="ppc management chennai, ppc agency chennai, google ads management chennai, pay per click chennai, google ads agency chennai, sem services chennai"
             h1="PPC Management in Chennai"
             heroLabel="PRECISION PAID ADVERTISING"
-            heroSubtext="Monkey Mind Media provides expert PPC management in Chennai — engineering Google Ads and Meta Ads campaigns that maximize every rupee through AI-optimized bidding and systematic conversion tracking."
+            heroSubtext="International Garudas provides expert PPC management in Chennai — engineering Google Ads and Meta Ads campaigns that maximize every rupee through AI-optimized bidding and systematic conversion tracking."
             sections={[
                 {
                     heading: 'Why PPC Management Demands Expertise in Chennai',
                     body: [
                         'Pay-per-click advertising is deceptively simple to start but extremely difficult to do profitably. Google Ads alone has over 50 campaign settings that affect performance. One misconfigured setting — wrong bidding strategy, broad match without negatives, or poor landing page alignment — can waste your entire budget.',
                         'The Chennai market adds complexity. Competing against national brands with larger budgets, handling Tamil and English mixed-search queries, managing cost spikes during festival seasons like Pongal and Deepavali — these challenges require a PPC management partner with deep platform expertise and local market knowledge.',
-                        'At Monkey Mind Media, PPC isn\'t a side service. It\'s a core competency. We manage campaigns with the precision of a trading desk — monitoring performance, adjusting bids, and optimizing conversion pathways in real-time.'
+                        'At International Garudas, PPC isn\'t a side service. It\'s a core competency. We manage campaigns with the precision of a trading desk — monitoring performance, adjusting bids, and optimizing conversion pathways in real-time.'
                     ]
                 },
                 {
@@ -34,7 +34,7 @@ export default function PPCManagement({ onOpenModal }) {
                 {
                     heading: 'Our PPC Optimization Process',
                     body: [
-                        'Every PPC campaign we manage at Monkey Mind Media follows a systematic optimization cycle that goes far beyond what most Chennai agencies deliver.',
+                        'Every PPC campaign we manage at International Garudas follows a systematic optimization cycle that goes far beyond what most Chennai agencies deliver.',
                         'Week 1-2: We conduct thorough keyword research, build negative keyword lists specific to the Chennai market, create ad copy variations, design conversion-optimized landing pages, and implement full conversion tracking including call tracking and form submissions.',
                         'Week 3-4: Initial data collection phase. We let campaigns run with enough volume to generate statistically significant data. During this period, we identify which keywords, audiences, and creatives show the strongest conversion signals.',
                         'Month 2 onwards: Continuous AI-assisted optimization — bid adjustments, audience refinements, ad copy iterations, landing page A/B tests, and budget reallocation toward highest-performing segments. Our systems make micro-optimizations daily, compounding gains over time.'

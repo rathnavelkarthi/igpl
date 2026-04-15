@@ -4,17 +4,17 @@ export default function DigitalMarketingCompany({ onOpenModal }) {
     return (
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
-            seoTitle="Digital Marketing Company Chennai | Monkey Mind Media"
-            seoDescription="Monkey Mind Media is a leading digital marketing company in Chennai helping brands grow through performance marketing, SEO, social media, and AI-driven campaigns."
+            seoTitle="Digital Marketing Company Chennai | International Garudas"
+            seoDescription="International Garudas is a leading digital marketing company in Chennai helping brands grow through performance marketing, SEO, social media, and AI-driven campaigns."
             seoKeywords="digital marketing company chennai, digital marketing company in chennai, online marketing company chennai, internet marketing company chennai, digital agency chennai"
             h1="Digital Marketing Company in Chennai"
             heroLabel="ENGINEERED FOR GROWTH"
-            heroSubtext="As a leading digital marketing company in Chennai, Monkey Mind Media builds scalable growth systems that drive revenue — not just traffic — for businesses across Tamil Nadu."
+            heroSubtext="As a leading digital marketing company in Chennai, International Garudas builds scalable growth systems that drive revenue — not just traffic — for businesses across Tamil Nadu."
             sections={[
                 {
                     heading: 'A Different Kind of Digital Marketing Company',
                     body: [
-                        'Chennai hosts over 500 registered digital marketing companies. The vast majority follow the same playbook: generic content, basic ad management, and monthly reports filled with vanity metrics. Monkey Mind Media was founded to break that pattern.',
+                        'Chennai hosts over 500 registered digital marketing companies. The vast majority follow the same playbook: generic content, basic ad management, and monthly reports filled with vanity metrics. International Garudas was founded to break that pattern.',
                         'We operate as a technology-first digital marketing company in Chennai. Our foundation is AI automation, data engineering, and systems thinking. When a business partners with us, they don\'t get a social media manager and an ad account — they get an entire digital growth infrastructure built around their specific market position.',
                         'This approach has made us the preferred partner for growth-focused businesses across Adyar, Guindy, and the IT corridor. We don\'t compete on price. We compete on outcomes.'
                     ]
@@ -59,10 +59,10 @@ export default function DigitalMarketingCompany({ onOpenModal }) {
             faqs={[
                 {
                     q: 'What is the difference between a digital marketing agency and a digital marketing company?',
-                    a: 'In practice, the terms are often used interchangeably. However, a company typically implies a broader organizational structure with multiple departments and service lines, while an agency may focus on specific services. Monkey Mind Media operates as a full-service digital marketing company in Chennai with dedicated teams for SEO, paid media, social, automation, and creative production.'
+                    a: 'In practice, the terms are often used interchangeably. However, a company typically implies a broader organizational structure with multiple departments and service lines, while an agency may focus on specific services. International Garudas operates as a full-service digital marketing company in Chennai with dedicated teams for SEO, paid media, social, automation, and creative production.'
                 },
                 {
-                    q: 'How does Monkey Mind Media report on campaign performance?',
+                    q: 'How does International Garudas report on campaign performance?',
                     a: 'We provide weekly performance dashboards that track KPIs tied to your business objectives — leads generated, cost per acquisition, ROAS, organic traffic growth, and conversion rates. We also conduct bi-weekly strategy reviews to discuss optimization opportunities and adjust tactics based on market signals.'
                 },
                 {

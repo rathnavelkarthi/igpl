@@ -16,7 +16,7 @@ export default function AffordableServices({ onOpenModal }) {
                     heading: 'Affordable Doesn\'t Mean Cheap — And Here\'s Why It Matters',
                     body: [
                         'There\'s a critical difference between affordable digital marketing and cheap digital marketing in Chennai. Cheap services cut corners — they use inexperienced teams, apply template strategies, and deliver surface-level results. Affordable services provide genuine expertise at price points that small and mid-sized businesses can sustain.',
-                        'At Monkey Mind Media, we\'ve designed tiered service packages specifically for Chennai businesses at different growth stages. A startup in Guindy doesn\'t need the same infrastructure as a hospital chain — but they deserve the same strategic quality.',
+                        'At International Garudas, we\'ve designed tiered service packages specifically for Chennai businesses at different growth stages. A startup in Guindy doesn\'t need the same infrastructure as a hospital chain — but they deserve the same strategic quality.',
                         'The most expensive marketing decision isn\'t hiring an agency. It\'s hiring the wrong agency, wasting 6 months, and having to start over.'
                     ]
                 },

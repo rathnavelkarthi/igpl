@@ -106,7 +106,7 @@ export default function HowToChooseAgency({ onOpenModal }) {
                 { label: 'SEO Services Chennai', href: '/seo-services-chennai' },
             ]}
             ctaTitle="Need Help Choosing the Right Agency?"
-            ctaText="Book a free, no-obligation consultation with Monkey Mind Media. We'll honestly assess whether we're the right fit for your business goals."
+            ctaText="Book a free, no-obligation consultation with International Garudas. We'll honestly assess whether we're the right fit for your business goals."
         />
     )
 }

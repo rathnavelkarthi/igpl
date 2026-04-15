@@ -4,19 +4,19 @@ export default function SocialMediaMarketing({ onOpenModal }) {
     return (
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
-            seoTitle="Social Media Marketing Chennai | Monkey Mind Media"
+            seoTitle="Social Media Marketing Chennai | International Garudas"
             seoDescription="Expert social media marketing in Chennai. Strategic content, community management, paid social campaigns, and influencer marketing for brands across Tamil Nadu."
             seoKeywords="social media marketing chennai, social media management chennai, instagram marketing chennai, facebook marketing chennai, social media agency chennai"
             h1="Social Media Marketing in Chennai"
             heroLabel="STRATEGIC SOCIAL GROWTH"
-            heroSubtext="Monkey Mind Media builds social media systems for Chennai brands — strategic content, community growth, and paid social campaigns that convert followers into customers."
+            heroSubtext="International Garudas builds social media systems for Chennai brands — strategic content, community growth, and paid social campaigns that convert followers into customers."
             sections={[
                 {
                     heading: 'Why Social Media Marketing Matters in Chennai',
                     body: [
                         'Chennai has over 12 million active social media users. Instagram, Facebook, YouTube, and LinkedIn are where your potential customers spend hours every day. But organic reach is dying — platforms have become pay-to-play ecosystems where strategic investment separates visible brands from invisible ones.',
                         'Most businesses in Chennai post randomly — unplanned content, inconsistent schedules, and zero measurement. This approach wastes time and delivers nothing. Social media marketing in Chennai requires a system: planned content pillars, scheduled publishing cadences, paid amplification, and rigorous performance tracking.',
-                        'At Monkey Mind Media, we build that system for you. Every post, story, and campaign is engineered for engagement and conversion — not just likes.'
+                        'At International Garudas, we build that system for you. Every post, story, and campaign is engineered for engagement and conversion — not just likes.'
                     ]
                 },
                 {

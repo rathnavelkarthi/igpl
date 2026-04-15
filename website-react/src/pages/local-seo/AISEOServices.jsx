@@ -5,17 +5,17 @@ export default function AISEOServices({ onOpenModal }) {
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
             seoTitle="AI SEO Services Chennai | AI-Powered Search Rankings"
-            seoDescription="AI-powered SEO services in Chennai. Monkey Mind Media uses machine learning, predictive analytics, and automated content optimization to accelerate your Google rankings."
+            seoDescription="AI-powered SEO services in Chennai. International Garudas uses machine learning, predictive analytics, and automated content optimization to accelerate your Google rankings."
             seoKeywords="ai seo services chennai, ai powered seo chennai, artificial intelligence seo chennai, machine learning seo chennai, automated seo services chennai"
             h1="AI SEO Services in Chennai"
             heroLabel="THE FUTURE OF SEARCH OPTIMIZATION"
-            heroSubtext="Monkey Mind Media pioneered AI SEO services in Chennai — using machine learning, predictive ranking models, and automated content optimization to achieve results 3x faster than traditional SEO."
+            heroSubtext="International Garudas pioneered AI SEO services in Chennai — using machine learning, predictive ranking models, and automated content optimization to achieve results 3x faster than traditional SEO."
             sections={[
                 {
                     heading: 'What Are AI SEO Services?',
                     body: [
                         'AI SEO services represent the next evolution of search engine optimization. Instead of relying solely on manual keyword research, content writing, and link building, AI-powered SEO integrates machine learning algorithms, natural language processing, and predictive analytics into every phase of the optimization process.',
-                        'At Monkey Mind Media, we\'ve developed AI-enhanced workflows that analyze competitive landscapes, identify ranking opportunities, generate SEO-optimized content frameworks, and predict algorithm impact — all at speeds impossible for human-only teams.',
+                        'At International Garudas, we\'ve developed AI-enhanced workflows that analyze competitive landscapes, identify ranking opportunities, generate SEO-optimized content frameworks, and predict algorithm impact — all at speeds impossible for human-only teams.',
                         'For Chennai businesses looking to outpace competitors who are still using traditional SEO methods, AI SEO services offer a decisive advantage. Our systems process more data, test more variations, and adapt to changes faster than any conventional approach.'
                     ]
                 },
@@ -67,7 +67,7 @@ export default function AISEOServices({ onOpenModal }) {
             faqs={[
                 {
                     q: 'Is AI SEO more expensive than traditional SEO?',
-                    a: 'AI SEO services at Monkey Mind Media are priced comparably to premium traditional SEO — starting from ₹30,000/month. However, the ROI is significantly higher because AI accelerates every phase of optimization. Most clients see meaningful ranking improvements 40-60% faster than they would with conventional methods.'
+                    a: 'AI SEO services at International Garudas are priced comparably to premium traditional SEO — starting from ₹30,000/month. However, the ROI is significantly higher because AI accelerates every phase of optimization. Most clients see meaningful ranking improvements 40-60% faster than they would with conventional methods.'
                 },
                 {
                     q: 'Will AI replace human SEO strategists?',

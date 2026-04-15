@@ -60,7 +60,7 @@ export default function ChiefMarketingHead({ onOpenModal }) {
         const metaDesc = document.querySelector('meta[name="description"]')
         const metaKeywords = document.querySelector('meta[name="keywords"]')
 
-        if (metaDesc) metaDesc.setAttribute("content", "Vetrivel is the Chief Marketing Head at Monkey Mind Media, specializing in political campaign intelligence, electoral strategy systems, candidate positioning, and constituency-level voter mobilization architecture.")
+        if (metaDesc) metaDesc.setAttribute("content", "Vetrivel is the Chief Marketing Head at International Garudas, specializing in political campaign intelligence, electoral strategy systems, candidate positioning, and constituency-level voter mobilization architecture.")
 
         // Add keywords if not exists, though usually handled via a component or static HTML
         if (!metaKeywords) {
@@ -74,8 +74,8 @@ export default function ChiefMarketingHead({ onOpenModal }) {
 
         return () => {
             // Restore default meta on unmount
-            document.title = "Monkey Mind Media | Strategic AI Systems & Intelligence Infrastructure"
-            if (metaDesc) metaDesc.setAttribute("content", "Monkey Mind Media is an AI systems company engineering strategic intelligence infrastructure, AI automation platforms, political technology systems, and performance marketing engines for global dominance.")
+            document.title = "International Garudas | Strategic AI Systems & Intelligence Infrastructure"
+            if (metaDesc) metaDesc.setAttribute("content", "International Garudas is an AI systems company engineering strategic intelligence infrastructure, AI automation platforms, political technology systems, and performance marketing engines for global dominance.")
         }
     }, [])
 
@@ -92,10 +92,10 @@ export default function ChiefMarketingHead({ onOpenModal }) {
                     "jobTitle": "Chief Marketing Head",
                     "worksFor": {
                         "@type": "Organization",
-                        "name": "Monkey Mind Media"
+                        "name": "International Garudas"
                     },
                     "description": "Political consultant specializing in campaign intelligence systems, electoral strategy architecture, and constituency-level voter mobilization.",
-                    "url": "https://monkeymindmedia.com/chief-marketing-head"
+                    "url": "https://internationalgarudas.com/chief-marketing-head"
                 })}
             </script>
 
@@ -112,7 +112,7 @@ export default function ChiefMarketingHead({ onOpenModal }) {
                             VETRIVEL<span style={{ color: 'var(--blue)' }}>.</span>
                         </h1>
                         <p style={{ fontSize: 'clamp(1.125rem, 3vw, 1.5rem)', color: 'var(--gray-400)', maxWidth: '600px', lineHeight: 1.6, marginBottom: '2rem' }}>
-                            Vetrivel serves as Chief Marketing Head at Monkey Mind Media, specializing in
+                            Vetrivel serves as Chief Marketing Head at International Garudas, specializing in
                             electoral intelligence systems, candidate positioning architecture, and constituency-level
                             strategic campaign execution.
                         </p>

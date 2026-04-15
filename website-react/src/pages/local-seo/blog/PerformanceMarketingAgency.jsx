@@ -10,14 +10,14 @@ export default function PerformanceMarketingAgency({ onOpenModal }) {
             seoKeywords="performance marketing agency chennai, performance marketing chennai, roi marketing agency chennai, growth marketing agency chennai, roas optimization chennai"
             h1="Performance Marketing Agency in Chennai"
             heroLabel="EVERY RUPEE ACCOUNTABLE"
-            heroSubtext="Monkey Mind Media is Chennai's performance marketing agency — where every campaign is measured by revenue impact, not vanity metrics. We engineer paid media systems that deliver compounding ROI."
+            heroSubtext="International Garudas is Chennai's performance marketing agency — where every campaign is measured by revenue impact, not vanity metrics. We engineer paid media systems that deliver compounding ROI."
             sections={[
                 {
                     heading: 'What is Performance Marketing — And Why Chennai Businesses Need It',
                     body: [
                         'Performance marketing is a discipline where every campaign is measured and optimized for specific business outcomes — leads, sales, revenue. Unlike brand marketing where success is subjective, performance marketing is binary: it either delivers ROI or it doesn\'t.',
                         'For Chennai businesses operating in competitive markets — healthcare in Nungambakkam, education in Anna Nagar, real estate on OMR — performance marketing provides the clearest path from ad spend to revenue. You know exactly what each lead costs, what each customer acquisition costs, and whether your marketing investment is profitable.',
-                        'At Monkey Mind Media, performance marketing is our DNA. We were founded on the principle that marketing should be as accountable as any other business investment.'
+                        'At International Garudas, performance marketing is our DNA. We were founded on the principle that marketing should be as accountable as any other business investment.'
                     ]
                 },
                 {

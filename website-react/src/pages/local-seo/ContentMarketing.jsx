@@ -4,18 +4,18 @@ export default function ContentMarketing({ onOpenModal }) {
     return (
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
-            seoTitle="Content Marketing Agency Chennai | Monkey Mind Media"
+            seoTitle="Content Marketing Agency Chennai | International Garudas"
             seoDescription="Strategic content marketing agency in Chennai. Blog strategy, thought leadership, video content, and SEO-driven content systems that build authority and generate leads."
             seoKeywords="content marketing agency chennai, content marketing services chennai, content strategy chennai, blog writing services chennai, content creation agency chennai"
             h1="Content Marketing Agency in Chennai"
             heroLabel="CONTENT THAT CONVERTS"
-            heroSubtext="Monkey Mind Media is a content marketing agency in Chennai that builds strategic content systems — not random blog posts. We create authority-building content that ranks, engages, and converts."
+            heroSubtext="International Garudas is a content marketing agency in Chennai that builds strategic content systems — not random blog posts. We create authority-building content that ranks, engages, and converts."
             sections={[
                 {
                     heading: 'Content Marketing That Actually Works for Chennai Businesses',
                     body: [
                         'Most content marketing in Chennai follows a pattern we call "blog and pray" — publish random articles, hope Google notices, and wonder why nothing happens. This approach fails because it treats content as a volume game rather than a strategic asset.',
-                        'As a content marketing agency in Chennai, Monkey Mind Media takes a fundamentally different approach. We build content architectures — interconnected topic clusters, pillar pages, and supporting content pieces that establish your brand as the authoritative voice in your industry.',
+                        'As a content marketing agency in Chennai, International Garudas takes a fundamentally different approach. We build content architectures — interconnected topic clusters, pillar pages, and supporting content pieces that establish your brand as the authoritative voice in your industry.',
                         'Every piece of content we create serves a specific purpose in your marketing ecosystem: attracting search traffic, nurturing leads through the consideration phase, or positioning your brand for purchase-ready audiences. Random content doesn\'t do that. Strategic content does.'
                     ]
                 },

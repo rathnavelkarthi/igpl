@@ -87,8 +87,8 @@ export default function LocalSEOTemplate({
         if (kw) kw.setAttribute('content', seoKeywords || '')
 
         return () => {
-            document.title = 'Monkey Mind Media | AI Systems & Strategic Intelligence Infrastructure'
-            if (desc) desc.setAttribute('content', 'Monkey Mind Media engineers AI automation systems, political intelligence platforms, and enterprise performance marketing technology for scalable impact.')
+            document.title = 'International Garudas | AI Systems & Strategic Intelligence Infrastructure'
+            if (desc) desc.setAttribute('content', 'International Garudas engineers AI automation systems, political intelligence platforms, and enterprise performance marketing technology for scalable impact.')
         }
     }, [seoTitle, seoDescription, seoKeywords])
 
@@ -101,10 +101,10 @@ export default function LocalSEOTemplate({
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "MarketingAgency",
-                    "name": "Monkey Mind Media",
-                    "image": "https://monkeymindmedia.com/logo.png",
-                    "@id": "https://monkeymindmedia.com/",
-                    "url": "https://monkeymindmedia.com/",
+                    "name": "International Garudas",
+                    "image": "https://internationalgarudas.com/logo.png",
+                    "@id": "https://internationalgarudas.com/",
+                    "url": "https://internationalgarudas.com/",
                     "description": seoDescription,
                     "address": {
                         "@type": "PostalAddress",

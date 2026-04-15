@@ -4,12 +4,12 @@ export default function SEOServices({ onOpenModal }) {
     return (
         <LocalSEOTemplate
             onOpenModal={onOpenModal}
-            seoTitle="SEO Services in Chennai | Monkey Mind Media"
+            seoTitle="SEO Services in Chennai | International Garudas"
             seoDescription="Expert SEO services in Chennai. Technical SEO, on-page optimization, link building, and content strategy to rank your business on Google's first page."
             seoKeywords="seo services in chennai, seo services chennai, search engine optimization chennai, seo agency chennai, seo consultant chennai"
             h1="SEO Services in Chennai"
             heroLabel="SEARCH ENGINE DOMINANCE"
-            heroSubtext="Monkey Mind Media provides expert SEO services in Chennai that combine technical precision, strategic content, and AI-powered analytics to drive sustainable organic growth."
+            heroSubtext="International Garudas provides expert SEO services in Chennai that combine technical precision, strategic content, and AI-powered analytics to drive sustainable organic growth."
             sections={[
                 {
                     heading: 'Why SEO Matters for Chennai Businesses in 2026',
@@ -54,7 +54,7 @@ export default function SEOServices({ onOpenModal }) {
                     ]
                 },
                 {
-                    heading: 'Why Choose Monkey Mind Media for SEO in Chennai',
+                    heading: 'Why Choose International Garudas for SEO in Chennai',
                     body: [
                         'We don\'t believe in black-hat shortcuts or keyword stuffing. Our SEO services in Chennai follow Google\'s guidelines strictly, focusing on creating genuine value for users while satisfying search engine algorithms.',
                         'What sets us apart is our AI-enhanced approach. We use machine learning tools to identify ranking opportunities faster, generate content briefs based on competitive gap analysis, and monitor algorithm updates in real-time. This technology advantage, combined with our deep knowledge of Chennai\'s digital landscape, makes us the SEO partner of choice for serious businesses.'
