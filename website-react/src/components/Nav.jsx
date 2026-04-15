@@ -20,7 +20,7 @@ export default function Nav({ onOpenModal }) {
     const links = [
         { label: 'Work', href: '#work' },
         { label: 'About', href: '#about' },
-        { label: 'Products', href: '#products' },
+        { label: 'Solutions', href: '#products' },
         { label: 'Tech', href: '#tech' },
     ]
 
@@ -51,8 +51,8 @@ export default function Nav({ onOpenModal }) {
                 <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     {/* Logo */}
                     <a href="/" className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none" style={{ fontFamily: 'var(--font-head)', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.04em' }}>
-                        <span style={{ color: '#fff' }}>monkeymind</span>
-                        <span style={{ color: 'var(--blue)' }}>media</span>
+                        <span style={{ color: '#fff' }}>international</span>
+                        <span style={{ color: 'var(--blue)' }}>garudas</span>
                     </a>
 
                     {/* Desktop links */}

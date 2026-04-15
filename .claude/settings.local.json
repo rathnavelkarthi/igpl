@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "claude-flow"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute"
+    ]
+  }
+}

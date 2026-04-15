@@ -73,7 +73,7 @@ export default function StrategicBriefingModal({ isOpen, onClose }) {
     const [status, setStatus] = useState('idle') // idle, submitting, success, error
     const [formData, setFormData] = useState({
         full_name: '', organization: '', role_title: '',
-        domain_selected: 'AI Video Infrastructure', budget_tier: '<5L',
+        domain_selected: 'Custom Software Development', budget_tier: '<5L',
         objective: '', email: '', whatsapp: ''
     })
 
@@ -182,10 +182,10 @@ export default function StrategicBriefingModal({ isOpen, onClose }) {
                                         value={formData.domain_selected}
                                         onChange={(val) => setFormData({ ...formData, domain_selected: val })}
                                         options={[
-                                            { label: 'AI Video Infrastructure', value: 'AI Video Infrastructure' },
-                                            { label: 'Political Campaign Systems', value: 'Political Campaign Systems' },
-                                            { label: 'AI SaaS Development', value: 'AI SaaS Development' },
-                                            { label: 'Performance Marketing', value: 'Performance Marketing' },
+                                            { label: 'Custom Software Development', value: 'Custom Software Development' },
+                                            { label: 'Software Procurement', value: 'Software Procurement' },
+                                            { label: 'Enterprise Solutions', value: 'Enterprise Solutions' },
+                                            { label: 'IT Consulting & Staff Augmentation', value: 'IT Consulting & Staff Augmentation' },
                                         ]}
                                     />
 

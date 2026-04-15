@@ -4,45 +4,45 @@ import { Clapperboard, LineChart, Landmark, Bot, Cpu } from 'lucide-react'
 
 const products = [
     {
-        icon: <Clapperboard size={36} className="text-purple-400" />, title: 'AI Video Systems',
-        desc: 'Veo3 + Sora 2 production pipelines for brand campaigns at scale. We automate the entire creative lifecycle from script to high-fidelity render.',
+        icon: <Cpu size={36} className="text-purple-400" />, title: 'Custom Software Development',
+        desc: 'End-to-end product engineering — from requirements analysis to deployment. We build scalable, enterprise-grade software solutions tailored to your business.',
         tag: 'Most Popular',
-        image: '/images/abstract/ai_video_system_1771770172751.png',
-        glow: 'rgba(168, 85, 247, 0.15)', // Purple
+        image: '/images/abstract/ai_saas_dev_1771770315929.png',
+        glow: 'rgba(168, 85, 247, 0.15)',
         isLarge: true,
-        href: '/ai-video-production-systems'
+        href: '#'
     },
     {
-        icon: <LineChart size={36} className="text-blue-400" />, title: 'Performance Marketing',
-        desc: 'Full-funnel paid media with live ROAS tracking and creative automation.',
+        icon: <LineChart size={36} className="text-blue-400" />, title: 'Software Procurement',
+        desc: 'Connecting businesses with vetted software vendors and development teams across Chennai and India.',
         tag: null,
         image: '/images/abstract/performance_marketing_1771770216698.png',
-        glow: 'rgba(37, 99, 235, 0.15)', // Blue
-        href: '/performance-marketing-systems'
+        glow: 'rgba(37, 99, 235, 0.15)',
+        href: '#'
     },
     {
-        icon: <Landmark size={36} className="text-indigo-400" />, title: 'Political Intelligence',
-        desc: 'Booth-level analytics, voter CRM, and constituency intelligence systems.',
+        icon: <Landmark size={36} className="text-indigo-400" />, title: 'Enterprise Solutions',
+        desc: 'ERP, CRM, and business process automation — designed for scale and operational efficiency.',
         tag: 'Enterprise',
         image: '/images/abstract/political_intelligence_1771770240152.png',
-        glow: 'rgba(79, 70, 229, 0.15)', // Indigo
-        href: '/political-intelligence-platform'
+        glow: 'rgba(79, 70, 229, 0.15)',
+        href: '#'
     },
     {
-        icon: <Bot size={36} className="text-blue-400" />, title: 'WhatsApp AI Automation',
-        desc: 'End-to-end WhatsApp business automation with memory and context.',
+        icon: <Bot size={36} className="text-blue-400" />, title: 'IT Consulting',
+        desc: 'Strategic technology advisory, digital transformation, and architecture consulting.',
         tag: null,
         image: '/images/abstract/whatsapp_automation_1771770271282.png',
         glow: 'rgba(59, 130, 246, 0.1)',
-        href: '/whatsapp-ai-automation'
+        href: '#'
     },
     {
-        icon: <Cpu size={36} className="text-sky-400" />, title: 'AI SaaS Development',
-        desc: 'From schema design to Cloud Run deployment — complete product engineering.',
+        icon: <Clapperboard size={36} className="text-sky-400" />, title: 'Staff Augmentation',
+        desc: 'On-demand access to skilled developers, QA engineers, and project managers for your team.',
         tag: null,
-        image: '/images/abstract/ai_saas_dev_1771770315929.png',
+        image: '/images/abstract/ai_video_system_1771770172751.png',
         glow: 'rgba(14, 165, 233, 0.1)',
-        href: '/ai-saas-development'
+        href: '#'
     },
 ]
 
@@ -55,13 +55,13 @@ export default function Products() {
         }}>
             <div className="container">
                 <FadeInText>
-                    <div className="section-label">SYSTEM ARCHITECTURE</div>
+                    <div className="section-label">OUR SOLUTIONS</div>
                     <h2 className="text-h1" style={{ marginBottom: '2.5rem' }}>
-                        AI SYSTEMS ENGINEERED<br />FOR CONTROL.
+                        SOFTWARE SOLUTIONS<br />BUILT TO SCALE.
                     </h2>
                     <p style={{ color: 'var(--gray-500)', fontSize: '1.25rem', marginBottom: '8rem', maxWidth: '650px', lineHeight: 1.8 }}>
-                        We build modular intelligence systems across four primary domains.
-                        Each deployment is structured for scalability, security, and strategic control.
+                        We deliver end-to-end software services across five core domains.
+                        Every engagement is structured for quality, scalability, and measurable business impact.
                     </p>
                 </FadeInText>
 

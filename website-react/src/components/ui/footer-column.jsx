@@ -10,37 +10,37 @@ import {
 } from 'lucide-react';
 
 const data = {
-    facebookLink: 'https://facebook.com/monkeymindmedia',
-    instaLink: 'https://instagram.com/monkeymindmedia',
-    twitterLink: 'https://twitter.com/monkeymindmedia',
-    githubLink: 'https://github.com/monkeymindmedia',
-    dribbbleLink: 'https://dribbble.com/monkeymindmedia',
+    facebookLink: 'https://facebook.com/internationalgarudas',
+    instaLink: 'https://instagram.com/internationalgarudas',
+    twitterLink: 'https://twitter.com/intlgarudas',
+    githubLink: 'https://github.com/internationalgarudas',
+    dribbbleLink: 'https://linkedin.com/company/internationalgarudas',
     services: {
-        webdev: '/ai-saas-development',
-        webdesign: '/performance-marketing-systems',
-        marketing: '/political-intelligence-platform',
-        googleads: '/ai-video-production-systems',
+        webdev: '#products',
+        webdesign: '#products',
+        marketing: '#products',
+        googleads: '#products',
     },
     about: {
-        history: '/about',
-        team: '/rathnavel',
-        handbook: '/vetrivel',
-        careers: '/careers',
+        history: '#about',
+        team: '/founder',
+        handbook: '#work',
+        careers: '#',
     },
     help: {
-        faqs: '/faqs',
-        support: '/support',
-        livechat: '/live-chat',
+        faqs: '#',
+        support: '#',
+        livechat: '#',
     },
     contact: {
-        email: 'info@monkeymindmedia.com',
+        email: 'contact@internationalgarudas.com',
         phone: '+91 8637373116',
         address: 'Chennai, Tamil Nadu, India',
     },
     company: {
-        name: 'Monkey Mind Media',
+        name: 'International Garudas',
         description:
-            'We build modular intelligence systems across digital domains. Each deployment is structured for scalability, security, and strategic control.',
+            'We connect businesses with the right software development solutions. Every engagement is built for quality, scalability, and long-term success.',
         logo: '/images/abstract/vid_psycho.png',
     },
 };
@@ -54,17 +54,17 @@ const socialLinks = [
 ];
 
 const aboutLinks = [
-    { text: 'Company History', href: data.about.history },
-    { text: 'Founder', href: data.about.team },
-    { text: 'Digital Head', href: data.about.handbook },
+    { text: 'About Us', href: data.about.history },
+    { text: 'Leadership', href: data.about.team },
+    { text: 'Our Clients', href: data.about.handbook },
     { text: 'Careers', href: data.about.careers },
 ];
 
 const serviceLinks = [
-    { text: 'AI SaaS Dev', href: data.services.webdev },
-    { text: 'Performance Marketing', href: data.services.webdesign },
-    { text: 'Political Intelligence', href: data.services.marketing },
-    { text: 'Video Systems', href: data.services.googleads },
+    { text: 'Custom Software', href: data.services.webdev },
+    { text: 'Software Procurement', href: data.services.webdesign },
+    { text: 'Enterprise Solutions', href: data.services.marketing },
+    { text: 'IT Consulting', href: data.services.googleads },
 ];
 
 const helpfulLinks = [

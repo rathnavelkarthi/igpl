@@ -77,12 +77,12 @@ export default function TechStack() {
                 {/* Headers as requested in mockup */}
                 <div style={{ marginBottom: '6rem' }}>
                     <h2 className="text-[3rem] sm:text-[4rem] font-bold leading-[1.1] tracking-tight text-white uppercase mb-6" style={{ fontFamily: 'var(--font-head)' }}>
-                        ENTERPRISE AI<br />STACK.
+                        TECHNOLOGY<br />STACK.
                     </h2>
                     <p className="text-gray-500 text-lg sm:text-xl max-w-2xl leading-relaxed">
-                        Monkey Mind Media operates on a modern AI and cloud-native
-                        infrastructure stack, designed for precision and clinical operational
-                        transparency.
+                        International Garudas builds on a modern, cloud-native
+                        technology stack — designed for scalable enterprise software
+                        development and reliable delivery.
                     </p>
                 </div>
 

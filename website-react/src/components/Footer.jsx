@@ -2,17 +2,17 @@ export default function Footer() {
     const cols = [
         {
             title: 'Services', links: [
-                { label: 'AI Video Systems', href: '/ai-video-production-systems' },
-                { label: 'Political Intelligence', href: '/political-intelligence-platform' },
-                { label: 'Performance Marketing', href: '/digital-marketing-agency-chennai' },
-                { label: 'SEO Services', href: '/seo-services-chennai' },
+                { label: 'Custom Software Development', href: '#products' },
+                { label: 'Software Procurement', href: '#products' },
+                { label: 'Enterprise Solutions', href: '#products' },
+                { label: 'IT Consulting', href: '#products' },
             ]
         },
         {
             title: 'Company', links: [
-                { label: 'About', href: '/' },
-                { label: 'Founder', href: '/founder' },
-                { label: 'Chennai Marketing', href: '/best-marketing-agency-chennai' },
+                { label: 'About', href: '#about' },
+                { label: 'Leadership', href: '/founder' },
+                { label: 'Clients', href: '#work' },
                 { label: 'Contact', href: '#' },
             ]
         },
@@ -37,15 +37,15 @@ export default function Footer() {
                             fontSize: '1.5rem', letterSpacing: '-0.04em',
                             marginBottom: '1.5rem',
                         }}>
-                            <span style={{ color: '#fff' }}>monkeymind</span>
-                            <span style={{ color: 'var(--blue)' }}>media</span>
+                            <span style={{ color: '#fff' }}>international</span>
+                            <span style={{ color: 'var(--blue)' }}>garudas</span>
                         </div>
                         <p style={{
                             fontSize: '0.9375rem', color: 'var(--gray-300)', /* Better contrast */
                             lineHeight: 1.8, maxWidth: '280px', marginBottom: '2rem',
                         }}>
-                            Engineered creatively. Built for global brand leadership.
-                            <br />Puducherry HQ · Chennai · Worldwide Systems.
+                            Your trusted software development partner.
+                            <br />Chennai HQ · Pan-India · Global Delivery.
                         </p>
                     </div>
 
@@ -100,14 +100,14 @@ export default function Footer() {
                             </div>
                             <div>
                                 <div style={{ fontSize: '0.625rem', fontWeight: 600, color: 'var(--gray-500)', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Email</div>
-                                <a href="mailto:contact@monkeymindmedia.com" className="cursor-pointer hover:text-white transition-colors" style={{ fontSize: '0.875rem', color: 'var(--gray-400)', display: 'block' }}>contact@monkeymindmedia.com</a>
-                                <a href="mailto:social@monkeymindmedia.com" className="cursor-pointer hover:text-white transition-colors" style={{ fontSize: '0.875rem', color: 'var(--gray-400)', display: 'block', marginTop: '0.4rem' }}>social@monkeymindmedia.com</a>
+                                <a href="mailto:contact@internationalgarudas.com" className="cursor-pointer hover:text-white transition-colors" style={{ fontSize: '0.875rem', color: 'var(--gray-400)', display: 'block' }}>contact@internationalgarudas.com</a>
+                                <a href="mailto:info@internationalgarudas.com" className="cursor-pointer hover:text-white transition-colors" style={{ fontSize: '0.875rem', color: 'var(--gray-400)', display: 'block', marginTop: '0.4rem' }}>info@internationalgarudas.com</a>
                             </div>
                             <div>
                                 <div style={{ fontSize: '0.625rem', fontWeight: 600, color: 'var(--gray-500)', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Address</div>
                                 <address style={{ fontSize: '0.875rem', color: 'var(--gray-400)', lineHeight: 1.7, fontStyle: 'normal' }}>
-                                    21, Jansi St, Indira Gandhi Nagar,<br />
-                                    Ilango Nagar, Puducherry, 605001
+                                    Chennai, Tamil Nadu,<br />
+                                    India
                                 </address>
                             </div>
                         </div>
@@ -122,11 +122,11 @@ export default function Footer() {
                     flexWrap: 'wrap', gap: '1.5rem',
                 }}>
                     <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-                        <span>© 2026 Monkey Mind Media.</span>
+                        <span>© 2026 International Garudas Private Limited.</span>
                         <a href="#" className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</a>
                         <a href="#" className="cursor-pointer focus-visible:ring-1 focus-visible:ring-blue-500 rounded-sm outline-none" style={{ color: 'inherit', textDecoration: 'none' }}>Terms of Service</a>
                     </div>
-                    <span style={{ color: 'var(--blue)', fontWeight: 600, fontSize: '0.6875rem', letterSpacing: '0.1em' }}>AI-POWERED INFRASTRUCTURE</span>
+                    <span style={{ color: 'var(--blue)', fontWeight: 600, fontSize: '0.6875rem', letterSpacing: '0.1em' }}>SOFTWARE SOLUTIONS PARTNER</span>
                 </div>
             </div>
 

@@ -6,111 +6,97 @@ const smooth = { duration: 0.7, ease: [0.22, 1, 0.36, 1] }
 
 const categories = [
     {
-        id: 'video',
-        label: 'AI Video Campaigns',
+        id: 'enterprise',
+        label: 'Enterprise Software',
         projects: [
             {
-                title: 'Studio46 Salon UGC Campaign',
-                objective: 'Hyper-local customer acquisition for premium salon brand',
-                results: '4.2× ROAS · 12K views in 72 hours',
-                tools: ['Veo3', 'ElevenLabs', 'Sora 2'],
-                image: '/images/abstract/ai_video_system_1771770172751.png',
-            },
-            {
-                title: 'Lifeskool India Psychometric Film',
-                objective: 'Drive B2B leads from educational institutions',
-                results: '38 qualified leads · ₹12 CPL',
-                tools: ['Veo3', 'Gemini', 'ElevenLabs'],
-                image: '/images/abstract/vid_psycho.png',
-            },
-            {
-                title: 'Trust Gold Tamil TV Style Ad',
-                objective: 'Cultural relevance + brand trust for jewellery brand',
-                results: '500K impressions · 8.7% CTR',
-                tools: ['Sora 2', 'ElevenLabs'],
-                image: '/images/abstract/vid_gold.png',
-            },
-            {
-                title: 'BeautyGenie Luxury Perfume Film',
-                objective: 'Aspirational brand storytelling for D2C launch',
-                results: '22K views · 3.1× ROAS',
-                tools: ['Veo3', 'Sora 2'],
-                image: '/images/abstract/vid_perfume.png',
-            },
-            {
-                title: 'Health Insurance Awareness Series',
-                objective: '6-part educational video series for policy conversions',
-                results: '18K policy inquiries generated',
-                tools: ['Veo3', 'ElevenLabs', 'Gemini'],
-                image: '/images/abstract/vid_health.png',
-            },
-        ],
-    },
-    {
-        id: 'performance',
-        label: 'Performance Marketing',
-        projects: [
-            {
-                title: 'Aviation Training School',
-                objective: 'Full-funnel lead gen for pilot training programme',
-                results: '₹18 CPL · 420 applications/month',
-                tools: ['Meta Ads', 'Google Ads', 'n8n'],
-                image: '/images/abstract/perf_aviation.png',
-            },
-            {
-                title: 'PetGlow Qatar Sales Funnel',
-                objective: 'E-commerce conversion optimisation + retargeting',
-                results: '5.4× ROAS · 310% revenue growth',
-                tools: ['Meta Ads', 'Klaviyo', 'WhatsApp API'],
-                image: '/images/abstract/perf_ecommerce.png',
-            },
-            {
-                title: 'Local Political Campaign Growth',
-                objective: 'Constituency-level digital reach and voter engagement',
-                results: '9.2M impressions · 78% awareness lift',
-                tools: ['Election OS', 'Meta Ads', 'WhatsApp'],
-                image: '/images/abstract/political_intelligence_1771770240152.png',
-            },
-            {
-                title: 'BeautyGenie Conversion Optimisation',
-                objective: 'Landing page & ad creative A/B testing at scale',
-                results: '2.8× conversion rate improvement',
-                tools: ['Meta Ads', 'AI Creative', 'Hotjar'],
-                image: '/images/abstract/performance_marketing_1771770216698.png',
-            },
-        ],
-    },
-    {
-        id: 'saas',
-        label: 'SaaS & AI Products',
-        projects: [
-            {
-                title: 'Imagepix.pro SaaS Platform',
-                objective: '45+ AI tools platform with credits system and creator tiers',
-                results: 'Multi-tier SaaS · Credits economy · Creator marketplace',
-                tools: ['React', 'Supabase', 'Gemini API', 'Stripe'],
+                title: 'ERP System for Manufacturing Firm',
+                objective: 'End-to-end enterprise resource planning for a Chennai-based manufacturer',
+                results: '40% operational efficiency gain · 6-month delivery',
+                tools: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
                 image: '/images/abstract/ai_saas_dev_1771770315929.png',
             },
             {
-                title: 'Election Intelligence OS',
-                objective: '33 DB tables · 97 RLS policies · AI voter analytics · Political CRM',
-                results: 'Real-time analytics · Booth-level intelligence · Candidate briefings',
-                tools: ['Next.js', 'Supabase', 'Vertex AI', 'n8n'],
-                image: '/images/abstract/political_intelligence_1771770240152.png',
+                title: 'CRM Platform for Real Estate Group',
+                objective: 'Custom CRM with lead tracking, pipeline management, and reporting',
+                results: '3× lead conversion · Automated follow-ups',
+                tools: ['Next.js', 'Supabase', 'Tailwind', 'n8n'],
+                image: '/images/abstract/performance_marketing_1771770216698.png',
             },
             {
-                title: 'WhatsApp AI Personal Assistant',
-                objective: 'Evolution API + Supabase memory + n8n automation + Google ecosystem',
-                results: 'End-to-end personal AI on WhatsApp',
-                tools: ['Evolution API', 'Supabase', 'n8n', 'Gemini'],
+                title: 'Hospital Management System',
+                objective: 'Patient records, appointment scheduling, and billing automation',
+                results: 'Production-grade healthcare SaaS',
+                tools: ['Next.js', 'Prisma', 'GKE', 'Vertex AI'],
+                image: '/images/abstract/the_firm_1771770372896.png',
+            },
+            {
+                title: 'Logistics & Fleet Management',
+                objective: 'Real-time vehicle tracking, route optimization, and dispatch management',
+                results: '25% reduction in delivery costs',
+                tools: ['React', 'Node.js', 'Google Maps', 'PostgreSQL'],
+                image: '/images/abstract/perf_aviation.png',
+            },
+        ],
+    },
+    {
+        id: 'webapps',
+        label: 'Web & Mobile Apps',
+        projects: [
+            {
+                title: 'E-Commerce Platform',
+                objective: 'Multi-vendor marketplace with payment gateway and inventory management',
+                results: '10K+ products · Seamless checkout · Mobile-first',
+                tools: ['React', 'Stripe', 'Supabase', 'Tailwind'],
+                image: '/images/abstract/perf_ecommerce.png',
+            },
+            {
+                title: 'EdTech Learning Platform',
+                objective: 'Course management, video streaming, and student assessment system',
+                results: '5K+ active users · 98.5% uptime',
+                tools: ['Next.js', 'Supabase', 'Gemini API', 'Stripe'],
+                image: '/images/abstract/vid_psycho.png',
+            },
+            {
+                title: 'Food Delivery App',
+                objective: 'Real-time ordering, driver tracking, and restaurant management',
+                results: 'Full-stack mobile + web delivery platform',
+                tools: ['React Native', 'Node.js', 'PostgreSQL', 'Maps API'],
                 image: '/images/abstract/whatsapp_automation_1771770271282.png',
             },
             {
-                title: 'Healthcare Doctor SaaS',
-                objective: 'Next.js 14 + Prisma + Cloud Run / GKE + AI Summary feature',
-                results: 'Production-grade healthcare SaaS',
-                tools: ['Next.js 14', 'Prisma', 'GKE', 'Vertex AI'],
-                image: '/images/abstract/the_firm_1771770372896.png',
+                title: 'Booking & Appointment Platform',
+                objective: 'Multi-tenant booking system for salons, clinics, and service providers',
+                results: '60% reduction in no-shows · Automated reminders',
+                tools: ['React', 'Supabase', 'Google Calendar', 'n8n'],
+                image: '/images/abstract/ai_video_system_1771770172751.png',
+            },
+        ],
+    },
+    {
+        id: 'consulting',
+        label: 'IT Consulting & Procurement',
+        projects: [
+            {
+                title: 'Cloud Migration for Banking Client',
+                objective: 'Migrate legacy monolith to microservices architecture on cloud',
+                results: '70% infrastructure cost reduction',
+                tools: ['Google Cloud', 'Kubernetes', 'Terraform', 'Docker'],
+                image: '/images/abstract/political_intelligence_1771770240152.png',
+            },
+            {
+                title: 'Software Vendor Selection for Insurance Co.',
+                objective: 'Evaluate and procure best-fit claims management software',
+                results: 'Evaluated 15 vendors · Saved ₹2Cr in licensing',
+                tools: ['Requirements Analysis', 'RFP Process', 'Vendor Scoring'],
+                image: '/images/abstract/vid_gold.png',
+            },
+            {
+                title: 'DevOps Transformation',
+                objective: 'CI/CD pipeline setup and infrastructure automation for fintech startup',
+                results: '4× faster deployments · Zero-downtime releases',
+                tools: ['GitHub Actions', 'Docker', 'GKE', 'Terraform'],
+                image: '/images/abstract/vid_health.png',
             },
         ],
     },
@@ -196,7 +182,7 @@ function WorkCard({ project }) {
 }
 
 export default function WorkGrid() {
-    const [active, setActive] = useState('video')
+    const [active, setActive] = useState('enterprise')
     const current = categories.find(c => c.id === active)
 
     return (
@@ -222,9 +208,9 @@ export default function WorkGrid() {
 
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <FadeInText>
-                    <div className="section-label">SELECTED INTELLIGENCE</div>
+                    <div className="section-label">OUR PORTFOLIO</div>
                     <h2 className="text-h1" style={{ marginBottom: '6rem' }}>
-                        MATHEMATICAL<br />OUTPUT.
+                        DELIVERED<br />SOLUTIONS.
                     </h2>
                 </FadeInText>
 

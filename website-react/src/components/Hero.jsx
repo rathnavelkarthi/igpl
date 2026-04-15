@@ -33,8 +33,8 @@ export default function Hero({ onOpenModal }) {
     const maskOpacity = useTransform(scrollYProgress, [0, 0.4], [1, 0])
 
     const headline = [
-        { text: 'STRATEGIC AI', highlight: false },
-        { text: 'INFRASTRUCTURE', highlight: true },
+        { text: 'SOFTWARE', highlight: false },
+        { text: 'DEVELOPMENT', highlight: true },
     ]
 
     return (
@@ -86,7 +86,7 @@ export default function Hero({ onOpenModal }) {
                         transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
                         className="section-label"
                     >
-                        SYSTEMS INTELLIGENCE FIRM
+                        SOFTWARE SOLUTIONS PARTNER
                     </motion.div>
 
                     {/* Vanguard Mask-Reveal Headline */}
@@ -129,9 +129,9 @@ export default function Hero({ onOpenModal }) {
                             letterSpacing: '0.02em'
                         }}
                     >
-                        Monkey Mind Media engineers AI automation platforms, political intelligence systems,
-                        enterprise performance marketing engines, and AI-powered creative infrastructure
-                        designed for systemic dominance.
+                        International Garudas connects businesses with the right software development talent,
+                        enterprise solutions, and technology partnerships — delivering end-to-end software
+                        procurement and development services from Chennai to the world.
                     </motion.p>
 
                     {/* CTAs with Magnetic Intent */}
@@ -178,7 +178,7 @@ export default function Hero({ onOpenModal }) {
                             transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
                             style={{ width: 1, height: 100, background: 'linear-gradient(to bottom, var(--blue), transparent)' }}
                         />
-                        SYSTEMS ACTIVE
+                        SOLUTIONS ACTIVE
                     </motion.div>
                 </div>
 

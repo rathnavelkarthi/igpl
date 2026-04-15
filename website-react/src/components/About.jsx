@@ -3,13 +3,13 @@ import { FadeInSection, FadeInText } from './FadeInSection'
 import { Clapperboard, Image as ImageIcon, LineChart, Bot, Cpu, Landmark, Target, ArrowRight } from 'lucide-react'
 
 const capabilities = [
-    { icon: <Clapperboard size={20} className="text-pink-500" />, title: 'AI Video Production', desc: 'Veo3 & Sora 2 powered cinematic brand films' },
-    { icon: <ImageIcon size={20} className="text-blue-400" />, title: 'AI Image Generation', desc: 'Photorealistic visuals at scale, zero studio cost' },
-    { icon: <LineChart size={20} className="text-indigo-400" />, title: 'Performance Ads', desc: 'ROAS-optimised campaigns across every platform' },
-    { icon: <Bot size={20} className="text-emerald-400" />, title: 'WhatsApp AI Automation', desc: 'Evolution API + n8n intelligent business systems' },
-    { icon: <Cpu size={20} className="text-purple-400" />, title: 'SaaS Development', desc: 'Full-stack products from schema to Cloud Run' },
-    { icon: <Landmark size={20} className="text-slate-300" />, title: 'Political Intelligence', desc: 'AI voter analytics and CRM systems' },
-    { icon: <Target size={20} className="text-cyan-400" />, title: 'Full Funnel Growth', desc: 'End-to-end acquisition, retention, and conversion' },
+    { icon: <Cpu size={20} className="text-pink-500" />, title: 'Custom Software Development', desc: 'End-to-end product engineering from concept to deployment' },
+    { icon: <Bot size={20} className="text-blue-400" />, title: 'Software Procurement', desc: 'Connecting enterprises with the right software vendors' },
+    { icon: <LineChart size={20} className="text-indigo-400" />, title: 'Enterprise Solutions', desc: 'ERP, CRM, and business process automation systems' },
+    { icon: <Landmark size={20} className="text-emerald-400" />, title: 'IT Consulting', desc: 'Strategic technology advisory and digital transformation' },
+    { icon: <Clapperboard size={20} className="text-purple-400" />, title: 'Cloud & DevOps', desc: 'Cloud migration, infrastructure, and CI/CD pipelines' },
+    { icon: <ImageIcon size={20} className="text-slate-300" />, title: 'QA & Testing', desc: 'Comprehensive software quality assurance and testing' },
+    { icon: <Target size={20} className="text-cyan-400" />, title: 'Staff Augmentation', desc: 'Skilled software developers on demand for your projects' },
 ]
 
 export default function About() {
@@ -27,28 +27,28 @@ export default function About() {
                     <div className="flex flex-col">
                         <FadeInText delay={0}>
                             <h4 className="text-[0.65rem] font-bold tracking-[0.25em] text-pink-500 uppercase mb-4">
-                                THE FIRM
+                                THE COMPANY
                             </h4>
                             <h2 className="text-[2.5rem] sm:text-[3.5rem] lg:text-[3.8rem] xl:text-[4.25rem] leading-[1.05] tracking-tight font-bold mb-8 uppercase" style={{ fontFamily: 'var(--font-head)' }}>
-                                <span className="text-white">AN AI-FIRST<br />STRATEGIC<br /></span>
+                                <span className="text-white">A SOFTWARE<br />DEVELOPMENT<br /></span>
                                 <span style={{
                                     background: 'linear-gradient(90deg, #ec4899 0%, #3b82f6 100%)',
                                     WebkitBackgroundClip: 'text',
                                     WebkitTextFillColor: 'transparent',
                                     backgroundClip: 'text',
-                                }}>INTELLIGENCE</span>
+                                }}>& BROKERING</span>
                                 <br />
-                                <span className="text-blue-500">FIRM.</span>
+                                <span className="text-blue-500">COMPANY.</span>
                             </h2>
                             <div className="flex flex-col gap-6 text-gray-400 text-[0.95rem] leading-relaxed max-w-2xl mb-12">
                                 <p>
-                                    Monkey Mind Media is not a traditional marketing agency. We are an AI systems company specializing in strategic intelligence infrastructure.
+                                    International Garudas Private Limited (IGPL) is not a traditional IT company. We are a software development and procurement firm that bridges the gap between businesses and technology.
                                 </p>
                                 <p>
-                                    We design, deploy, and scale high-performance automation frameworks that control narrative, performance, acquisition, and operational leverage. From AI video production pipelines to political campaign intelligence platforms, our systems are engineered for measurable advantage.
+                                    We connect enterprises with the right software development teams, build custom solutions, and manage the entire software lifecycle. From requirements gathering to deployment and maintenance, our team ensures every project delivers measurable business value.
                                 </p>
                                 <p>
-                                    Our approach is clinical. Data-driven. Infrastructure-led. Every deployment is designed for scale, automation, and sustained market control.
+                                    Based in Chennai, we serve clients across India and globally. Our approach is partnership-driven, quality-focused, and built for long-term success.
                                 </p>
                             </div>
                         </FadeInText>
@@ -97,12 +97,12 @@ export default function About() {
                                         fontFamily: 'var(--font-head)',
                                         fontSize: 'clamp(2rem, 4.5vw, 2.75rem)',
                                     }}>
-                                    <span className="text-white block mb-1">AI</span>
+                                    <span className="text-white block mb-1">Software</span>
                                     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-400 mb-1 drop-shadow-[0_0_30px_rgba(34,211,238,0.4)]">
-                                        Creative
+                                        Development
                                     </span>
                                     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                                        Intelligence
+                                        Excellence
                                     </span>
                                 </h3>
                                 <div className="mt-8 text-[0.7rem] sm:text-xs font-bold tracking-[0.3em] text-gray-400 uppercase border border-white/10 py-2 px-6 rounded-full bg-black/40 backdrop-blur-md">
