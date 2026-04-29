@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FadeInSection } from './FadeInSection'
 import founderPortrait from '../assets/founder_portrait.webp'
-import vetrivelPortrait from '../assets/vetri.webp'
+import sidarthPortrait from '../assets/sidarth.jpeg'
 
 function LeadershipCard({ name, title, description, image, link, linkText }) {
     return (
@@ -129,22 +129,22 @@ export default function StrategicLeadership({ onOpenModal }) {
                     <FadeInSection delay={0.2}>
                         <LeadershipCard
                             name="Rathnavel"
-                            title="Founder & Systems Architect"
-                            description="Architecting AI infrastructure, automation systems, and political intelligence frameworks designed for systemic control and global scale."
+                            title="Director"
+                            description="Co-founder and Director of International Garudas, driving software procurement strategy, enterprise partnerships, and technology delivery at scale."
                             image={founderPortrait}
                             link="/founder"
-                            linkText="View Strategic Profile"
+                            linkText="View Profile"
                         />
                     </FadeInSection>
 
                     <FadeInSection delay={0.4}>
                         <LeadershipCard
-                            name="Vetrivel"
-                            title="Chief Marketing Head"
-                            description="Electoral intelligence strategist specializing in constituency modeling, narrative amplification, and campaign execution architecture."
-                            image={vetrivelPortrait}
-                            link="/chief-marketing-head"
-                            linkText="View Operational Profile"
+                            name="Sidarth"
+                            title="Director"
+                            description="Co-Director at International Garudas, overseeing business development, client operations, and strategic growth across technology verticals."
+                            image={sidarthPortrait}
+                            link="/sidarth"
+                            linkText="View Profile"
                         />
                     </FadeInSection>
                 </div>
