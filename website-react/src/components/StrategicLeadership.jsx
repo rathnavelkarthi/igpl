@@ -139,7 +139,7 @@ export default function StrategicLeadership({ onOpenModal }) {
 
                     <FadeInSection delay={0.4}>
                         <LeadershipCard
-                            name="Sidarth"
+                            name="Siddharthan"
                             title="Director"
                             description="Co-Director at International Garudas, overseeing business development, client operations, and strategic growth across technology verticals."
                             image={sidarthPortrait}
